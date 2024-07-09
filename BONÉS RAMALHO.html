@@ -416,40 +416,46 @@
             </section>
 
             <section id="about">
-    
-                <h1>QUEM CONHECE RECOMENDA</h1>
 
-                    <div classe="feedbacks">
+      <!-- TODO:Correcao de transicao de slides, resolver desaparecimento do carrosel apos carregamento -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
 
-                        <div class="row">
-                            <div class="col">
-                                <img src="images/feed1.png" class="img-fluid" width="264" height="478" alt="entre em contato">
-                            </div>
-                            <div class="col">
-                                <img src="images/feed2.png" class="img-fluid" width="264" height="478" alt="entre em contato">
-                            </div>
-                            <div class="col">
-                                <img src="images/feed3.png" class="img-fluid" width="264" height="478" alt="entre em contato">
-                            </div>
-                            <div class="col">
-                                <img src="images/feed4.png" class="img-fluid" width="264" height="478" alt="entre em contato">
-                            </div>
-                            <div class="col">
-                                <img src="images/feed5.png" class="img-fluid" width="264" height="478" alt="entre em contato">
-                            </div>
-                            <div class="col">
-                                <img src="images/feed6.png" class="img-fluid" width="264" height="4785" alt="entre em contato">
-                            </div>
-                            <div class="col">
-                                <img src="images/feed7.png" class="img-fluid" width="264" height="478" alt="entre em contato">
-                            </div>
-                            <div class="col">
-                                <img src="images/feed8.png" class="img-fluid" width="264" height="478" alt="entre em contato">
-                            </div>
-                        </div>
+  <!-- Slides -->
+          <section>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div class="row">
+        <div class="col">
+      <img src="images/feed1.png" class="d-block w-50" alt="Slide 1">
+    </div>
+        <div class="col">
+    <div class="carousel-item">
+      <img src="images/feed2.png" class="d-block w-50" alt="Slide 2">
+    </div>
+        <div class="col">
+    <div class="carousel-item">
+      <img src="images/feed3.png" class="d-block w-50" alt="Slide 3">
+    </div>
+  </div>
 
-                    </div>
-                 
+  </div>
+  </div>
+  <!-- Previous and Next controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
             </section>
     
             <section id="contact">
@@ -528,8 +534,8 @@
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- TODO: mudar caminhos das imagens para prints de whatsapp -->
 <!-- TODO: acrescentar transicao de animacao CSS  -->
+<!-- TODO: Corrigir bug de efeito de rolagem -->
 <div id="carouselExampleIndicators" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -548,6 +554,7 @@
                     <div class="col">
                         <img src="images/BEISEBOL.png" class="d-block w-100" alt="Slide 3">
                     </div>
+
                     <div class="col">
                         <img src="images/PIERSIDE.png" class="d-block w-100" alt="Slide 1">
                     </div>
